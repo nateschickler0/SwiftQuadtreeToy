@@ -7,13 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		433E495D1D546F9800635CBC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 433E49591D546F9800635CBC /* LaunchScreen.storyboard */; };
+		433E495E1D546F9800635CBC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 433E495B1D546F9800635CBC /* Main.storyboard */; };
 		436A4AB41D51E72900E19180 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 436A4AB31D51E72900E19180 /* AppDelegate.swift */; };
 		436A4AB61D51E72900E19180 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 436A4AB51D51E72900E19180 /* ViewController.swift */; };
-		436A4AB91D51E72900E19180 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 436A4AB71D51E72900E19180 /* Main.storyboard */; };
 		436A4ABB1D51E72900E19180 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 436A4ABA1D51E72900E19180 /* Assets.xcassets */; };
-		436A4ABE1D51E72900E19180 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 436A4ABC1D51E72900E19180 /* LaunchScreen.storyboard */; };
 		436A4AC91D51E72900E19180 /* swiftQuadtreeToyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 436A4AC81D51E72900E19180 /* swiftQuadtreeToyTests.swift */; };
 		436A4AD41D51E72900E19180 /* swiftQuadtreeToyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 436A4AD31D51E72900E19180 /* swiftQuadtreeToyUITests.swift */; };
+		436A4AE21D51E7A800E19180 /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 436A4AE11D51E7A800E19180 /* CircleView.swift */; };
+		436A4AE41D51F0CA00E19180 /* Quadtree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 436A4AE31D51F0CA00E19180 /* Quadtree.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,12 +36,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		433E495A1D546F9800635CBC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		433E495C1D546F9800635CBC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		436A4AB01D51E72900E19180 /* swiftQuadtreeToy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = swiftQuadtreeToy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		436A4AB31D51E72900E19180 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		436A4AB51D51E72900E19180 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		436A4AB81D51E72900E19180 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		436A4ABA1D51E72900E19180 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		436A4ABD1D51E72900E19180 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		436A4ABF1D51E72900E19180 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		436A4AC41D51E72900E19180 /* swiftQuadtreeToyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = swiftQuadtreeToyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		436A4AC81D51E72900E19180 /* swiftQuadtreeToyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swiftQuadtreeToyTests.swift; sourceTree = "<group>"; };
@@ -47,6 +49,8 @@
 		436A4ACF1D51E72900E19180 /* swiftQuadtreeToyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = swiftQuadtreeToyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		436A4AD31D51E72900E19180 /* swiftQuadtreeToyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swiftQuadtreeToyUITests.swift; sourceTree = "<group>"; };
 		436A4AD51D51E72900E19180 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		436A4AE11D51E7A800E19180 /* CircleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleView.swift; sourceTree = "<group>"; };
+		436A4AE31D51F0CA00E19180 /* Quadtree.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Quadtree.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,10 +102,12 @@
 			isa = PBXGroup;
 			children = (
 				436A4AB31D51E72900E19180 /* AppDelegate.swift */,
+				436A4AE11D51E7A800E19180 /* CircleView.swift */,
 				436A4AB51D51E72900E19180 /* ViewController.swift */,
-				436A4AB71D51E72900E19180 /* Main.storyboard */,
+				436A4AE31D51F0CA00E19180 /* Quadtree.swift */,
+				433E49591D546F9800635CBC /* LaunchScreen.storyboard */,
+				433E495B1D546F9800635CBC /* Main.storyboard */,
 				436A4ABA1D51E72900E19180 /* Assets.xcassets */,
-				436A4ABC1D51E72900E19180 /* LaunchScreen.storyboard */,
 				436A4ABF1D51E72900E19180 /* Info.plist */,
 			);
 			path = swiftQuadtreeToy;
@@ -229,9 +235,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				436A4ABE1D51E72900E19180 /* LaunchScreen.storyboard in Resources */,
+				433E495E1D546F9800635CBC /* Main.storyboard in Resources */,
 				436A4ABB1D51E72900E19180 /* Assets.xcassets in Resources */,
-				436A4AB91D51E72900E19180 /* Main.storyboard in Resources */,
+				433E495D1D546F9800635CBC /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,6 +262,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				436A4AE41D51F0CA00E19180 /* Quadtree.swift in Sources */,
+				436A4AE21D51E7A800E19180 /* CircleView.swift in Sources */,
 				436A4AB61D51E72900E19180 /* ViewController.swift in Sources */,
 				436A4AB41D51E72900E19180 /* AppDelegate.swift in Sources */,
 			);
@@ -293,20 +301,20 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		436A4AB71D51E72900E19180 /* Main.storyboard */ = {
+		433E49591D546F9800635CBC /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				436A4AB81D51E72900E19180 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		436A4ABC1D51E72900E19180 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				436A4ABD1D51E72900E19180 /* Base */,
+				433E495A1D546F9800635CBC /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		433E495B1D546F9800635CBC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				433E495C1D546F9800635CBC /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -484,6 +492,7 @@
 				436A4ADA1D51E72900E19180 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		436A4ADB1D51E72900E19180 /* Build configuration list for PBXNativeTarget "swiftQuadtreeToyTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +501,7 @@
 				436A4ADD1D51E72900E19180 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		436A4ADE1D51E72900E19180 /* Build configuration list for PBXNativeTarget "swiftQuadtreeToyUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +510,7 @@
 				436A4AE01D51E72900E19180 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
